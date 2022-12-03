@@ -61,6 +61,8 @@ https://caddyserver.com/docs/install#debian-ubuntu-raspbian
 # After that's done, check to see if everything is working with curl localhost.
 ![image](https://user-images.githubusercontent.com/98194499/205431760-0b634f90-bc25-43f9-b681-be2aa6cb71c1.png)
 
+# If it's working, you're finished! Just repeat the same steps with the other droplet to complete.
+
 
 
 
