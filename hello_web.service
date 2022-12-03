@@ -1,0 +1,16 @@
+[Unit]
+Description=Web server2 for 2420 lab 13
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStart=/home/edzers1/.volta/bin/node /var/www/146.190.3.147/src/index.js
+ExecReload=/home/edzers1/.volta/bin/node /var/www/146.190.3.147/src/index.js
+User=edzers1
+Group=edzers1
+Restart=on-failure
+RestartSec=20
+TimeoutSec=10
+
+[Install]
+WantedBy=multi-user.target
