@@ -36,7 +36,7 @@ https://caddyserver.com/docs/install#debian-ubuntu-raspbian
 
 # Install fastify in the directory, and then proceed to make index.js in the src directory, and then edit the js file so that it listens to port 5050.
 ![image](https://user-images.githubusercontent.com/98194499/205429946-61a41eec-2c58-4dd7-8cfe-e7ed5796e5b2.png)
-![image](https://user-images.githubusercontent.com/98194499/205430547-90ff4853-7914-4d99-8ed4-af4681ff108f.png)
+![image](https://user-images.githubusercontent.com/98194499/205431498-3f991cf5-5aa6-4e4a-8805-b810ebd52998.png)
 
 
 # In the home directory, create a file called "Caddyfile", and vim into /etc/caddy/Caddyfile and configure it such that you set the path to the sites directory, and you enable the reverse proxy and add /api.
@@ -57,6 +57,10 @@ https://caddyserver.com/docs/install#debian-ubuntu-raspbian
 
 # Reload the daemon, and then check the status of caddy.
 ![image](https://user-images.githubusercontent.com/98194499/205431019-8c2e2422-b4c3-43cb-a6fc-6460fa2c4592.png)
+
+# After that's done, check to see if everything is working with curl localhost.
+![image](https://user-images.githubusercontent.com/98194499/205431760-0b634f90-bc25-43f9-b681-be2aa6cb71c1.png)
+
 
 
 
